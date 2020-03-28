@@ -10,8 +10,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://vignette.wikia.nocookie.net/joshkomisarcik/images/d/dd/Jimneut.png/revision/latest?cb=20190327162303'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
